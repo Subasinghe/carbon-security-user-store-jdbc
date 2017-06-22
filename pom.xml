@@ -43,7 +43,7 @@
         <!--<module>components/org.wso2.carbon.security.store.connector.jdbc</module>-->
         <module>feature/org.wso2.carbon.identity.mgt.store.connector.jdbc.feature</module>
         <!--<module>feature/org.wso2.carbon.security.store.connector.jdbc.feature</module>-->
-        <module>tests</module>
+        <!--<module>tests</module>-->
     </modules>
 
     <build>
@@ -130,7 +130,7 @@
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.security.userstore</groupId>
-                <artifactId>org.wso2.carbon.security.store.connector.jdbc</artifactId>
+                <artifactId>org.wso2.carbon.identity.mgt.store.connector.jdbc</artifactId>
                 <version>${carbon.security.userstore.jdbc.version}</version>
             </dependency>
             <dependency>
@@ -352,7 +352,7 @@
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.security.userstore</groupId>
-                <artifactId>org.wso2.carbon.security.store.connector.jdbc.feature</artifactId>
+                <artifactId>org.wso2.carbon.identity.mgt.store.connector.jdbc.feature</artifactId>
                 <version>${carbon.security.userstore.jdbc.version}</version>
                 <type>zip</type>
             </dependency>
